@@ -1,0 +1,29 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+  font-family: monospace;
+  line-height: 2rem;
+  margin: 60px auto;
+  padding: 0 60px;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+.btn-color {
+  background-color: brown;
+  color: whitesmoke;
+  font-size: 18px;
+}
+.btn-color:hover {
+  color: brown;
+  background-color: whitesmoke;
+}
+.img-size {
+  min-width: 250px;
+  max-height: 200px;
+}
